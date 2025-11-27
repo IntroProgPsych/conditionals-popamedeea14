@@ -29,4 +29,15 @@
 # 4 - 6 = -2
 
 # Write your code here:
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+operation = input("Enter operation (add, subtract, multiply): ")
+
+if operation == "+":
+    print(num1 + num2)
+elif operation == "-":
+    print(num1 - num2)
+elif operation == "*":
+    print(num1 * num2)
+
 
